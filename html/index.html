@@ -8,9 +8,13 @@
   </head>
   <body id="body">
     <script>
-      document
-        .getElementById("body")
-        .addEventListener("click", function () {}, false);
+      document.getElementById("body").addEventListener(
+        "click",
+        function () {
+          document.getElementById("body").innerHTML = "Praise the sun!";
+        },
+        false
+      );
     </script>
   </body>
 </html>
